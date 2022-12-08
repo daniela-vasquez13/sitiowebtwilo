@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Space+Mono&display=swap');
+:root{
+	--color-general:#03363d;
+	--color-verde:#68b06e;
+	--fondo-verde:#10393b;
+	--color-hero:#618a8d;
+	--color-naranja:#ff8945;
+	--hover-naranja:#f4722c;
+	--hover-verde:#00272b;
+	--color-titulos:#0b363d;
+	--fondo-card:#f6f9f9;
+}
+body{
+	font-family: 'Raleway', "sans-serif";
+	font-size: 16px;
+	color: var(--color-general);
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+}
+header{
+	background-color: var(--fondo-verde);
+	padding: 25px 0;
+}
+
+header img{
+	width: 120px;
+}
+
+#hero h4{ color: var(--color-hero);
+	font-size: 22px;
+	font-weight:600;
+	margin-bottom: 60px; 
+	margin-top: 20px;
+	
+	background-image: url("../img/bg-img-01.png");
+	background-position: top center; 
+	background-size: cover;
+	background-color: var(--fondo-verde);
+	padding: 5%;
+	
+}
+#hero h1{
+	color:#FFFFFF;
+	font-size: 70px;
+	font-weight: 700px;
+	
+}
+
+.color-naranja{
+	color: var(--color-naranja);
+	
+}
+
+.btn-naranja{
+	background-color: var(--color-naranja);
+	color: #FFFFFF;
+	padding: 14px, 30px;
+	font-size: 15px;
+	font-weight: 600px;
+	letter-spacing: 1px;
+}
+
+.btn-naranja:hover{background-color: var(--hover-naranja);
+}
+
+.btn-verde{
+	background-color: var(--fondo-verde);
+	color: #FFFFFF;
+	padding: 14px, 30px;
+	font-size: 15px;
+	font-weight: 600px;
+	letter-spacing: 1px;
+}
+
+.btn-verde:hover{
+	
+	background-color: var(--hover-verde);
+	color:#FFFFFF;
+}
+
+.section{
+	padding: 60px 0;
+}
+
+.titulo span{
+	color: var(--color-naranja);
+}
+.titulo{
+	color: var(--color-titulos);
+	font-weight: 800;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.subtitulo{
+	color:var(--color-verde);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px;
+	font-size: 16px;
+	
+}
+
+.link-naranja{
+	color: var(--color-naranja);
+	font-weight: 600;
+	border-bottom: 1px solid var(--color-naranja);
+	
+}
+
+.link-naranja:hover{
+	color: var(--color-naranja);
+	opacity: 0.8;
+}
+
+#features .card{
+	background-color: var(--fondo-card);
+	padding: 20px;
+}
+
+#features .card h3{
+	
+	font-size: 22px;
+	font-weight: 800;
+	border: 0;
+	border-bottom: thin solid #fac56b;
+	border-radius: 0;
+}
+
+.data{
+border-left: 2px solid var(--color-general);
+padding-left: 40px;
+margin-top:40px;
+}
+
+.data h5{
+	
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#hero-title{
+	background-image: url("../img/bg-img-01.png");
+	background-size: cover;
+	background-position: top center;
+	background-color: var(--color-general);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+#hero-title h3{
+	color: var(--color-verde);
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700px;
+	letter-spacing: 1px;
+}
+	
+#hero-title .titulo{
+	color: #FFFFFF;
+	font-size: 60px;
+}
+
+#form-contact{
+	padding: 30px 0px;
+}
+
+#form-contact h3{
+	font-size: 24px;
+	font-weight: 800;
+	padding: 30px 0px;
+	margin-bottom: 35px;
+	margin: 0px 50px;
+}
+
+#form-contact li{
+	margin-bottom: 10px;
+	margin: 0px 50px;
+	
+}
+
+#form-contact .la-map-marker{
+	color: #FAC56B;
+	margin: 0px 50px;
+}
+#form-contact .la-phone{
+	color: #0085F2;
+	margin: 0px 50px;
+}
+
+#form-contact p{
+margin: 0px 50px;
+}
+
+#form-contact .la-envelope{
+	color: #FF5C00;
+	margin: 0px 50px;
+}
+
+#form-contact form{
+	margin: 0px 50px;
+}
+
+footer{
+	padding: 60px 0px;
+	border-top: 1px solid #dddd;
+	background-color: #f2f2f2;
+}
+
+footer a{
+	color: var(--color-general);
+	font-size: 14px;
+}
+
+footer a:hover{
+	color: var(--color-naranja);
+	font-size: 14px;
+}
+
+footer h3{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+footer img{
+margin-bottom: 25px;	
+}
+
+footer ul{
+	font-size: 14px;
+}
+
+#hero-carousel h5{
+	color: var(--color-verde);
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+#hero-carousel .titulo{
+	color: #FFFFFF;
+	font-size: 58px;
+}
+
+#hero-carousel .carousel-caption .btn-naranja{
+	display: inline-block !important;
+}
